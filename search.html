@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+</head>
+
+<body>
+    <h1>Поиск</h1>
+    <form action="https://tests.fomenko.top/echo/index.php">
+        <fieldset>
+            <div>
+                <label for="type">Тип кузова</label>
+                <select id="type" name="type">
+                    <option value="sedan">Седан</option>
+                    <option value="coupe">Купе</option>
+                    <option value="hatchback">Хетчбек</option>
+                    <option value="universal">Универсал</option>
+                    <option value="picap">Пикап</option>
+                </select>
+            </div>
+            <div>
+                <label for="car">Марка автомобиля</label>
+                <select id="car" name="car">
+                    <option value="dodge">dodge</option>
+                    <option value="audi">audi</option>
+                    <option value="bmw">bmw</option>
+                    <option value="honda">honda</option>
+                    <option value="kia">kia</option>
+                </select>
+            </div>
+            <div>
+                <label for="country">Страна производитель</label>
+                <select id="country" name="country">
+                    <option value="ukraine">Украина</option>
+                    <option value="usa">США</option>
+                    <option value="germany">Германия</option>
+                    <option value="italy">Италия</option>
+                    <option value="france">Франция</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="pricefrom">Цена от</label>
+                <input id="pricefrom" type="number" name="pricefrom">
+            </div>
+            <div>
+                <label for="priceto">Цена до</label>
+                <input id="priceto" type="number" name="priceto">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="yearfrom">Год от</label>
+                <input id="yearfrom" type="number" name="yearfrom">
+            </div>
+            <div>
+                <label for="yearto">Год до</label>
+                <input id="yearto" type="number" name="yearto">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Состояние</legend>
+            <div>
+                <label for="new">Новая</label>
+                <input type="checkbox" name="new" id="new">
+            </div>
+            <div>
+                <label for="broken">Битая</label>
+                <input type="checkbox" name="broken" id="broken">
+            </div>
+            <div>
+                <label for="incredit">В кредите</label>
+                <input type="checkbox" name="incredit" id="incredit">
+            </div>
+            <div>
+                <label for="customs">Не растоможенная</label>
+                <input type="checkbox" name="customs" id="customs">
+            </div>
+            <div>
+                <label for="used">Б.У.</label>
+                <input type="checkbox" name="used" id="used">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Тип топлива</legend>
+            <div>
+                <label for="petrol">Бензин</label>
+                <input type="checkbox" name="petrol" id="petrol">
+            </div>
+            <div>
+                <label for="diesel">Дизель</label>
+                <input type="checkbox" name="diesel" id="diesel">
+            </div>
+            <div>
+                <label for="gas">Газ</label>
+                <input type="checkbox" name="gas" id="gas">
+            </div>
+            <div>
+                <label for="electro">Электро</label>
+                <input type="checkbox" name="electro" id="electro">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Тип коробки передач</legend>
+            <div>
+                <label for="automatic">Автомат</label>
+                <input type="checkbox" name="automatic" id="automatic">
+            </div>
+            <div>
+                <label for="manual">Ручная</label>
+                <input type="checkbox" name="manual" id="manual">
+            </div>
+            <div>
+                <label for="robot">Робот</label>
+                <input type="checkbox" name="robot" id="robot">
+            </div>
+            <div>
+                <label for="variator">Вариатор</label>
+                <input type="checkbox" name="variator" id="variator">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="color">Цвет</label>
+                <select id="color" name="color">
+                    <option value="black">черный</option>
+                    <option value="blue">синий</option>
+                    <option value="grey">серый</option>
+                    <option value="green">зеленый</option>
+                    <option value="yellow">желтый</option>
+                    <option value="white">белый</option>
+                    <option value="red">красный</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Комфорт</legend>
+            <div>
+                <label for="conditioner">Кондиционер</label>
+                <input type="checkbox" name="conditioner" id="conditioner">
+            </div>
+            <div>
+                <label for="sunroof">Люк</label>
+                <input type="checkbox" name="sunroof" id="sunroof">
+            </div>
+            <div>
+                <label for="hseats">Подогрев сидения</label>
+                <input type="checkbox" name="hseats" id="hseats">
+            </div>
+            <div>
+                <label for="audio">Музыка</label>
+                <input type="checkbox" name="audio" id="audio">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <button type="submit">Отправить</button>
+                <button type="reset">Сбросить</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
